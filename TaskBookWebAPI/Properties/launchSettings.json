@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://10.0.0.128:27017",
+      "sslPort": 44309
+    }
+  },
+  "profiles": {
+    //"IIS": {
+    //  "commandName": "IIS",
+    //  "launchBrowser": true,
+    //  "launchUrl": "api/TaskBook/test",
+    //  "environmentVariables": {
+    //    "ASPNETCORE_ENVIRONMENT": "Development"
+    //  }
+    //},
+    "TaskBookWebAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/TaskBook/test",
+      "applicationUrl": "http://10.0.0.128:27017",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
